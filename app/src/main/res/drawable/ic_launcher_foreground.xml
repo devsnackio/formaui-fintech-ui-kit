@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive-icon foreground: the Forma mark in {colors.primary} #9FE870.
+
+  The mark is authored in a 100x100 box; the group scales it to 60x60 and centres it at 54,54 so
+  the whole silhouette (ring + dot) sits inside the 66dp adaptive-icon safe circle. The gap is a
+  108-degree opening at the dot's bearing, and the dot is a separate fill — do not merge them.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="24"
+        android:translateY="24">
+        <path
+            android:pathData="M77.1,59.3 A30,30 0 1 1 45.9,22.1"
+            android:strokeColor="#9FE870"
+            android:strokeWidth="13"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#9FE870"
+            android:pathData="M87,10 a9,9 0 1 0 0,18 a9,9 0 1 0 0,-18z" />
+    </group>
+</vector>

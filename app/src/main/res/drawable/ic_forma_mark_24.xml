@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The Forma mark, 24px cut — the ring alone.
+
+  Below 32dp the dot is too close to the ring stroke to survive: it fuses with it and the mark
+  reads as a blob. The small cut drops the dot and opens the gap from 108 to 134 degrees so the
+  opening still registers at nav-bar size.
+
+  Same 100x100 box as the tile cut, drawn in black for the caller to tint.
+  Ring centre 50,52 · radius 27 · stroke 11 with round caps (226 degrees drawn).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M74.1,64.3 A27,27 0 1 1 42.1,26.2"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="11"
+        android:strokeLineCap="round" />
+</vector>

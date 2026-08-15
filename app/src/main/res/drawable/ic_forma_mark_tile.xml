@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The Forma mark, tile cut — an open ring with the dot already leaving it.
+
+  Authored in the handoff's 100x100 box and drawn in black so the caller tints it: the mark is
+  monochrome in one of two polarities (ink on the green tile, green on ink) and the polarity
+  belongs to the surface, not to the asset. Used at 32dp and above; below that the dot fuses
+  with the ring stroke, so `ic_forma_mark_24` is the small cut.
+
+  Ring centre 46,54 · radius 24 · stroke 12 with round caps (252 degrees drawn, 108 degrees of
+  gap). Round caps are load-bearing — they are what keeps the gap from reading as 120 degrees.
+  The dot stays a separate path; merging it into the ring loses the clear space between them.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M69.3,59.8 A24,24 0 1 1 44.3,30.1"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="12"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M77,18 a8,8 0 1 0 0,16 a8,8 0 1 0 0,-16z" />
+</vector>
