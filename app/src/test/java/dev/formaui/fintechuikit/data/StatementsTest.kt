@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 package dev.formaui.fintechuikit.data
 
 import dev.formaui.fintechuikit.data.model.Currency

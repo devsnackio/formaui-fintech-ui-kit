@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 // ExperimentalMaterial3Api: TopAppBarDefaults is still experimental in M3.
 @file:OptIn(ExperimentalFormaUiApi::class, ExperimentalMaterial3Api::class)
 

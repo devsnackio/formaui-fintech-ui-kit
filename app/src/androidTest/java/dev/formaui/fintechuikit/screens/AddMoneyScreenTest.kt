@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 package dev.formaui.fintechuikit.screens
 
 import androidx.compose.ui.test.junit4.ComposeContentTestRule

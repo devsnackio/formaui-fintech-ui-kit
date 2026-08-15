@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 @file:OptIn(ExperimentalFormaUiApi::class)
 
 package dev.formaui.fintechuikit.components.balance

@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 // ExperimentalMaterial3Api is required by FormaTopAppBar's call site, not by anything here: its
 // scrollBehavior parameter is typed TopAppBarScrollBehavior, which M3 still marks experimental, so
 // the opt-in is needed even though this shell passes no scroll behaviour. The FormaUI reference

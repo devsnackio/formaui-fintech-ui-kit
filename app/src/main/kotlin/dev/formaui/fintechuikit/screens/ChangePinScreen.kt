@@ -1,3 +1,6 @@
+/*
+ * Copyright 2026 FormaUI. Licensed under the Apache License, Version 2.0.
+ */
 // ExperimentalMaterial3Api: FormaTopAppBar's scrollBehavior parameter type is still experimental
 // in M3, so the opt-in is needed even though none is passed.
 @file:OptIn(ExperimentalFormaUiApi::class, ExperimentalMaterial3Api::class)
