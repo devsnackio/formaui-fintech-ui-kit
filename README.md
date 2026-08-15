@@ -143,3 +143,11 @@ sits next to it, because that is the thing a future reader cannot recover from t
 Numbers in the app come from `data/SampleData.kt`. There is no pull-to-refresh, no fake spinner and
 no button that does nothing; where a feature can't be honestly demonstrated it is left out rather
 than mocked up.
+
+---
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE), the same as FormaUI itself. The licence covers
+this code; it grants no rights in anyone's trademarks (Apache-2.0 §6), and the brand this study is
+modeled on is Wise's.
